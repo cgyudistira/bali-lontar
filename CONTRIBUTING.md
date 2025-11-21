@@ -1,61 +1,61 @@
-# Panduan Kontribusi
+# Contributing Guidelines
 
-Terima kasih atas minat Anda untuk berkontribusi pada proyek **Bali Lontar**! Kami sangat menghargai setiap kontribusi, baik itu perbaikan bug, penambahan fitur, perbaikan dokumentasi, atau peningkatan kualitas kode.
+Thank you for your interest in contributing to the **Bali Lontar** project! We greatly appreciate every contribution, whether it's bug fixes, new features, documentation improvements, or code quality enhancements.
 
-## 📋 Daftar Isi
+## 📋 Table of Contents
 
 - [Code of Conduct](#code-of-conduct)
-- [Cara Berkontribusi](#cara-berkontribusi)
-- [Jenis Kontribusi](#jenis-kontribusi)
-- [Proses Development](#proses-development)
-- [Standar Kode](#standar-kode)
+- [How to Contribute](#how-to-contribute)
+- [Types of Contributions](#types-of-contributions)
+- [Development Process](#development-process)
+- [Code Standards](#code-standards)
 - [Commit Guidelines](#commit-guidelines)
 - [Pull Request Process](#pull-request-process)
 - [Testing](#testing)
-- [Dokumentasi](#dokumentasi)
-- [Komunitas](#komunitas)
+- [Documentation](#documentation)
+- [Community](#community)
 
 ---
 
 ## Code of Conduct
 
-Proyek ini mengadopsi kode etik untuk memastikan lingkungan yang ramah dan inklusif bagi semua kontributor. Dengan berpartisipasi, Anda diharapkan untuk menjunjung tinggi kode etik ini.
+This project adopts a code of conduct to ensure a friendly and inclusive environment for all contributors. By participating, you are expected to uphold this code of conduct.
 
-### Prinsip Dasar
+### Core Principles
 
-- **Hormati** semua kontributor tanpa memandang latar belakang
-- **Bersikap profesional** dalam semua interaksi
-- **Terima kritik** yang membangun dengan lapang dada
-- **Fokus pada** apa yang terbaik untuk komunitas
-- **Tunjukkan empati** terhadap anggota komunitas lainnya
+- **Respect** all contributors regardless of background
+- **Be professional** in all interactions
+- **Accept constructive criticism** with an open mind
+- **Focus on** what is best for the community
+- **Show empathy** towards other community members
 
 ---
 
-## Cara Berkontribusi
+## How to Contribute
 
-### 1. Fork Repository
+### 1. Fork the Repository
 
-Klik tombol "Fork" di pojok kanan atas halaman repository untuk membuat salinan repository di akun GitHub Anda.
+Click the "Fork" button in the upper right corner of the repository page to create a copy of the repository in your GitHub account.
 
-### 2. Clone Repository
+### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/username/bali-lontar.git
+git clone https://github.com/yourusername/bali-lontar.git
 cd bali-lontar
 ```
 
-### 3. Buat Branch Baru
+### 3. Create a New Branch
 
 ```bash
-git checkout -b feature/nama-fitur-anda
+git checkout -b feature/your-feature-name
 ```
 
-Gunakan naming convention:
-- `feature/` untuk fitur baru
-- `bugfix/` untuk perbaikan bug
-- `docs/` untuk perubahan dokumentasi
-- `refactor/` untuk refactoring kode
-- `test/` untuk penambahan atau perbaikan test
+Use naming conventions:
+- `feature/` for new features
+- `bugfix/` for bug fixes
+- `docs/` for documentation changes
+- `refactor/` for code refactoring
+- `test/` for adding or fixing tests
 
 ### 4. Setup Development Environment
 
@@ -63,83 +63,83 @@ Gunakan naming convention:
 # Install dependencies
 flutter pub get
 
-# Jalankan tests untuk memastikan semuanya berjalan
+# Run tests to ensure everything works
 flutter test
 
-# Jalankan aplikasi
+# Run the application
 flutter run
 ```
 
-### 5. Buat Perubahan
+### 5. Make Changes
 
-Lakukan perubahan pada kode dengan mengikuti [Standar Kode](#standar-kode).
+Make changes to the code following the [Code Standards](#code-standards).
 
-### 6. Test Perubahan
+### 6. Test Your Changes
 
 ```bash
-# Jalankan semua tests
+# Run all tests
 flutter test
 
-# Jalankan tests spesifik
-flutter test test/nama_test.dart
+# Run specific tests
+flutter test test/test_name.dart
 
-# Jalankan analyzer
+# Run analyzer
 flutter analyze
 ```
 
-### 7. Commit Perubahan
+### 7. Commit Your Changes
 
 ```bash
 git add .
-git commit -m "feat: deskripsi singkat perubahan"
+git commit -m "feat: brief description of changes"
 ```
 
-Lihat [Commit Guidelines](#commit-guidelines) untuk format commit yang benar.
+See [Commit Guidelines](#commit-guidelines) for proper commit format.
 
-### 8. Push ke GitHub
+### 8. Push to GitHub
 
 ```bash
-git push origin feature/nama-fitur-anda
+git push origin feature/your-feature-name
 ```
 
-### 9. Buat Pull Request
+### 9. Create a Pull Request
 
-Buka repository Anda di GitHub dan klik "New Pull Request". Isi deskripsi PR dengan detail perubahan yang Anda buat.
+Open your repository on GitHub and click "New Pull Request". Fill in the PR description with details of your changes.
 
 ---
 
-## Jenis Kontribusi
+## Types of Contributions
 
-### 🐛 Melaporkan Bug
+### 🐛 Reporting Bugs
 
-Jika Anda menemukan bug, silakan buat issue dengan:
+If you find a bug, please create an issue with:
 
-1. **Judul yang jelas**: Deskripsi singkat masalah
-2. **Deskripsi detail**: Langkah-langkah untuk mereproduksi bug
-3. **Expected behavior**: Apa yang seharusnya terjadi
-4. **Actual behavior**: Apa yang sebenarnya terjadi
-5. **Screenshots**: Jika memungkinkan
-6. **Environment**: Versi Flutter, OS, device, dll
+1. **Clear title**: Brief description of the problem
+2. **Detailed description**: Steps to reproduce the bug
+3. **Expected behavior**: What should happen
+4. **Actual behavior**: What actually happens
+5. **Screenshots**: If possible
+6. **Environment**: Flutter version, OS, device, etc.
 
-**Template Issue Bug:**
+**Bug Issue Template:**
 ```markdown
-## Deskripsi Bug
-[Deskripsi singkat bug]
+## Bug Description
+[Brief description of the bug]
 
-## Langkah Reproduksi
-1. Buka aplikasi
-2. Klik pada '...'
-3. Scroll ke '...'
-4. Lihat error
+## Steps to Reproduce
+1. Open the app
+2. Click on '...'
+3. Scroll to '...'
+4. See error
 
 ## Expected Behavior
-[Apa yang seharusnya terjadi]
+[What should happen]
 
 ## Actual Behavior
-[Apa yang sebenarnya terjadi]
+[What actually happens]
 
 ## Screenshots
-[Jika ada]
+[If any]
 
 ## Environment
 - Flutter version: 
@@ -148,56 +148,56 @@ Jika Anda menemukan bug, silakan buat issue dengan:
 - Device: 
 ```
 
-### 💡 Mengusulkan Fitur Baru
+### 💡 Proposing New Features
 
-Untuk mengusulkan fitur baru:
+To propose a new feature:
 
-1. Cek dulu apakah fitur sudah ada di [Issues](https://github.com/username/bali-lontar/issues)
-2. Buat issue baru dengan label "enhancement"
-3. Jelaskan:
-   - Masalah yang ingin diselesaikan
-   - Solusi yang Anda usulkan
-   - Alternatif yang sudah Anda pertimbangkan
-   - Mockup atau contoh (jika ada)
+1. Check if the feature already exists in [Issues](https://github.com/cgyudistira/bali-lontar/issues)
+2. Create a new issue with "enhancement" label
+3. Explain:
+   - The problem you want to solve
+   - Your proposed solution
+   - Alternatives you've considered
+   - Mockups or examples (if any)
 
-### 📝 Memperbaiki Dokumentasi
+### 📝 Improving Documentation
 
-Dokumentasi yang baik sangat penting! Anda dapat membantu dengan:
+Good documentation is crucial! You can help by:
 
-- Memperbaiki typo atau kesalahan grammar
-- Menambahkan contoh penggunaan
-- Memperjelas penjelasan yang membingungkan
-- Menerjemahkan dokumentasi
-- Menambahkan diagram atau ilustrasi
+- Fixing typos or grammar errors
+- Adding usage examples
+- Clarifying confusing explanations
+- Translating documentation
+- Adding diagrams or illustrations
 
-### 🧪 Menambahkan Tests
+### 🧪 Adding Tests
 
-Tests membantu menjaga kualitas kode. Anda dapat:
+Tests help maintain code quality. You can:
 
-- Menambahkan unit tests untuk fungsi yang belum ter-cover
-- Menambahkan widget tests untuk UI components
-- Menambahkan integration tests untuk flow lengkap
-- Memperbaiki tests yang gagal
+- Add unit tests for uncovered functions
+- Add widget tests for UI components
+- Add integration tests for complete flows
+- Fix failing tests
 
-### 🎨 Meningkatkan UI/UX
+### 🎨 Improving UI/UX
 
-Kontribusi desain sangat dihargai:
+Design contributions are highly appreciated:
 
-- Perbaikan layout
-- Peningkatan accessibility
-- Animasi dan transisi
-- Tema dan styling
+- Layout improvements
+- Accessibility enhancements
+- Animations and transitions
+- Themes and styling
 - Responsive design
 
 ---
 
-## Proses Development
+## Development Process
 
-### Setup Lokal
+### Local Setup
 
 1. **Install Flutter**
    ```bash
-   # Verifikasi instalasi
+   # Verify installation
    flutter doctor
    ```
 
@@ -207,27 +207,27 @@ Kontribusi desain sangat dihargai:
    ```
 
 3. **Setup IDE**
-   - Gunakan VS Code atau Android Studio
-   - Install Flutter dan Dart extensions
+   - Use VS Code or Android Studio
+   - Install Flutter and Dart extensions
    - Enable format on save
 
 ### Development Workflow
 
-1. **Pilih Issue**: Cari issue yang ingin Anda kerjakan atau buat issue baru
-2. **Diskusi**: Diskusikan pendekatan Anda di issue sebelum mulai coding
-3. **Develop**: Kerjakan perubahan di branch terpisah
-4. **Test**: Pastikan semua tests pass
-5. **Review**: Minta review dari maintainer
-6. **Iterate**: Lakukan perubahan berdasarkan feedback
-7. **Merge**: Setelah approved, PR akan di-merge
+1. **Choose Issue**: Find an issue you want to work on or create a new one
+2. **Discuss**: Discuss your approach in the issue before starting to code
+3. **Develop**: Work on changes in a separate branch
+4. **Test**: Ensure all tests pass
+5. **Review**: Request review from maintainers
+6. **Iterate**: Make changes based on feedback
+7. **Merge**: After approval, PR will be merged
 
 ---
 
-## Standar Kode
+## Code Standards
 
 ### Dart Style Guide
 
-Ikuti [Effective Dart](https://dart.dev/guides/language/effective-dart) guidelines:
+Follow [Effective Dart](https://dart.dev/guides/language/effective-dart) guidelines:
 
 ```dart
 // ✅ Good
@@ -340,17 +340,17 @@ try {
 
 ### Performance Best Practices
 
-- Gunakan `const` constructor untuk widget yang tidak berubah
-- Hindari rebuild yang tidak perlu dengan `const` widgets
-- Gunakan `ListView.builder` untuk list panjang
-- Cache data yang sering diakses
-- Gunakan `async`/`await` dengan benar
+- Use `const` constructor for widgets that don't change
+- Avoid unnecessary rebuilds with `const` widgets
+- Use `ListView.builder` for long lists
+- Cache frequently accessed data
+- Use `async`/`await` correctly
 
 ---
 
 ## Commit Guidelines
 
-Kami menggunakan [Conventional Commits](https://www.conventionalcommits.org/) untuk pesan commit yang konsisten.
+We use [Conventional Commits](https://www.conventionalcommits.org/) for consistent commit messages.
 
 ### Format
 
@@ -364,24 +364,24 @@ Kami menggunakan [Conventional Commits](https://www.conventionalcommits.org/) un
 
 ### Types
 
-- `feat`: Fitur baru
-- `fix`: Perbaikan bug
-- `docs`: Perubahan dokumentasi
-- `style`: Perubahan formatting (tidak mengubah logika)
-- `refactor`: Refactoring kode
-- `test`: Menambah atau memperbaiki tests
-- `chore`: Perubahan build process atau tools
+- `feat`: New feature
+- `fix`: Bug fix
+- `docs`: Documentation changes
+- `style`: Formatting changes (no logic changes)
+- `refactor`: Code refactoring
+- `test`: Adding or fixing tests
+- `chore`: Build process or tools changes
 
-### Contoh
+### Examples
 
 ```bash
-# Fitur baru
+# New feature
 git commit -m "feat(dictionary): add fuzzy matching for word lookup"
 
-# Perbaikan bug
+# Bug fix
 git commit -m "fix(transliteration): handle empty input correctly"
 
-# Dokumentasi
+# Documentation
 git commit -m "docs(readme): update installation instructions"
 
 # Refactoring
@@ -412,40 +412,40 @@ Closes #123
 
 ## Pull Request Process
 
-### Sebelum Membuat PR
+### Before Creating a PR
 
-- [ ] Pastikan kode Anda mengikuti standar kode proyek
-- [ ] Jalankan `flutter analyze` dan perbaiki semua warnings
-- [ ] Jalankan `flutter test` dan pastikan semua tests pass
-- [ ] Update dokumentasi jika diperlukan
-- [ ] Tambahkan tests untuk fitur baru
+- [ ] Ensure your code follows project code standards
+- [ ] Run `flutter analyze` and fix all warnings
+- [ ] Run `flutter test` and ensure all tests pass
+- [ ] Update documentation if needed
+- [ ] Add tests for new features
 
-### Template Pull Request
+### Pull Request Template
 
 ```markdown
-## Deskripsi
-[Deskripsi singkat perubahan]
+## Description
+[Brief description of changes]
 
-## Jenis Perubahan
-- [ ] Bug fix (non-breaking change yang memperbaiki issue)
-- [ ] New feature (non-breaking change yang menambah functionality)
-- [ ] Breaking change (fix atau feature yang menyebabkan existing functionality berubah)
+## Type of Change
+- [ ] Bug fix (non-breaking change that fixes an issue)
+- [ ] New feature (non-breaking change that adds functionality)
+- [ ] Breaking change (fix or feature that causes existing functionality to change)
 - [ ] Documentation update
 
-## Bagaimana Cara Test?
-[Langkah-langkah untuk test perubahan]
+## How to Test?
+[Steps to test the changes]
 
 ## Checklist
-- [ ] Kode saya mengikuti style guidelines proyek
-- [ ] Saya telah melakukan self-review
-- [ ] Saya telah menambahkan comments untuk kode yang kompleks
-- [ ] Saya telah update dokumentasi
-- [ ] Perubahan saya tidak menghasilkan warnings baru
-- [ ] Saya telah menambahkan tests
-- [ ] Semua tests pass
+- [ ] My code follows the project's style guidelines
+- [ ] I have performed a self-review
+- [ ] I have added comments for complex code
+- [ ] I have updated the documentation
+- [ ] My changes generate no new warnings
+- [ ] I have added tests
+- [ ] All tests pass
 
-## Screenshots (jika ada perubahan UI)
-[Tambahkan screenshots]
+## Screenshots (if UI changes)
+[Add screenshots]
 
 ## Related Issues
 Closes #[issue number]
@@ -453,11 +453,11 @@ Closes #[issue number]
 
 ### Review Process
 
-1. **Automated Checks**: CI/CD akan menjalankan tests dan linter
-2. **Code Review**: Maintainer akan review kode Anda
-3. **Feedback**: Anda mungkin diminta untuk melakukan perubahan
-4. **Approval**: Setelah approved, PR akan di-merge
-5. **Cleanup**: Branch akan dihapus setelah merge
+1. **Automated Checks**: CI/CD will run tests and linter
+2. **Code Review**: Maintainers will review your code
+3. **Feedback**: You may be asked to make changes
+4. **Approval**: After approval, PR will be merged
+5. **Cleanup**: Branch will be deleted after merge
 
 ---
 
@@ -511,13 +511,13 @@ void main() {
 ### Running Tests
 
 ```bash
-# Semua tests
+# All tests
 flutter test
 
-# Dengan coverage
+# With coverage
 flutter test --coverage
 
-# Test spesifik
+# Specific test
 flutter test test/services/dictionary_service_test.dart
 
 # Watch mode (re-run on changes)
@@ -526,11 +526,11 @@ flutter test --watch
 
 ---
 
-## Dokumentasi
+## Documentation
 
 ### Inline Documentation
 
-Gunakan dartdoc comments untuk public APIs:
+Use dartdoc comments for public APIs:
 
 ```dart
 /// Translates a word from [sourceLang] to [targetLang].
@@ -551,52 +551,52 @@ Future<List<Translation>> translate(
 
 ### README Updates
 
-Jika Anda menambahkan fitur baru, update README.md dengan:
-- Deskripsi fitur
-- Cara penggunaan
-- Contoh kode (jika applicable)
+If you add a new feature, update README.md with:
+- Feature description
+- How to use
+- Code examples (if applicable)
 
 ### Changelog
 
-Update CHANGELOG.md untuk perubahan yang signifikan:
+Update CHANGELOG.md for significant changes:
 
 ```markdown
 ## [1.1.0] - 2024-01-15
 
 ### Added
-- Fuzzy matching untuk pencarian kata
-- Autocomplete untuk input
+- Fuzzy matching for word search
+- Autocomplete for input
 
 ### Fixed
-- Bug pada transliterasi pasangan
-- Memory leak pada cache
+- Bug in pasangan transliteration
+- Memory leak in cache
 
 ### Changed
-- Improve performance dictionary lookup
+- Improve dictionary lookup performance
 ```
 
 ---
 
-## Komunitas
+## Community
 
-### Komunikasi
+### Communication
 
-- **GitHub Issues**: Untuk bug reports dan feature requests
-- **GitHub Discussions**: Untuk diskusi umum dan Q&A
-- **Pull Requests**: Untuk code review dan diskusi implementasi
+- **GitHub Issues**: For bug reports and feature requests
+- **GitHub Discussions**: For general discussions and Q&A
+- **Pull Requests**: For code review and implementation discussions
 
-### Mendapatkan Bantuan
+### Getting Help
 
-Jika Anda membutuhkan bantuan:
+If you need help:
 
-1. Cek [dokumentasi](README.md)
-2. Search di [Issues](https://github.com/username/bali-lontar/issues)
-3. Tanya di [Discussions](https://github.com/username/bali-lontar/discussions)
-4. Hubungi maintainer
+1. Check the [documentation](README.md)
+2. Search in [Issues](https://github.com/cgyudistira/bali-lontar/issues)
+3. Ask in [Discussions](https://github.com/cgyudistira/bali-lontar/discussions)
+4. Contact maintainers
 
-### Menjadi Maintainer
+### Becoming a Maintainer
 
-Kontributor aktif yang menunjukkan komitmen terhadap proyek dapat diundang menjadi maintainer. Maintainer memiliki tanggung jawab:
+Active contributors who show commitment to the project may be invited to become maintainers. Maintainers have responsibilities:
 
 - Review pull requests
 - Triage issues
@@ -606,9 +606,9 @@ Kontributor aktif yang menunjukkan komitmen terhadap proyek dapat diundang menja
 
 ---
 
-## Terima Kasih! 🙏
+## Thank You! 🙏
 
-Terima kasih telah meluangkan waktu untuk berkontribusi pada Bali Lontar. Setiap kontribusi, sekecil apapun, sangat berarti untuk pelestarian budaya Bali!
+Thank you for taking the time to contribute to Bali Lontar. Every contribution, no matter how small, is meaningful for the preservation of Balinese culture!
 
 ---
 
