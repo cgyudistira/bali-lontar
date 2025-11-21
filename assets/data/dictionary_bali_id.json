@@ -1,0 +1,210 @@
+{
+  "entries": [
+    {
+      "word": "anak",
+      "translations": [{"language": "id", "text": "anak", "pos": "noun", "definitions": ["child", "offspring"], "examples": ["anak luh (daughter)", "anak muani (son)"]}],
+      "frequency": 950
+    },
+    {
+      "word": "bapa",
+      "translations": [{"language": "id", "text": "ayah", "pos": "noun", "definitions": ["father", "dad"], "examples": ["bapa tiang (my father)"]}],
+      "frequency": 920
+    },
+    {
+      "word": "meme",
+      "translations": [{"language": "id", "text": "ibu", "pos": "noun", "definitions": ["mother", "mom"], "examples": ["meme tiang (my mother)"]}],
+      "frequency": 930
+    },
+    {
+      "word": "tiang",
+      "translations": [{"language": "id", "text": "saya", "pos": "pronoun", "definitions": ["I", "me"], "examples": ["tiang suka (I like)"]}],
+      "frequency": 980
+    },
+    {
+      "word": "cai",
+      "translations": [{"language": "id", "text": "kamu", "pos": "pronoun", "definitions": ["you"], "examples": ["cai lakar kija? (where are you going?)"]}],
+      "frequency": 940
+    },
+    {
+      "word": "ia",
+      "translations": [{"language": "id", "text": "dia", "pos": "pronoun", "definitions": ["he", "she", "it"], "examples": ["ia jegeg (she is beautiful)"]}],
+      "frequency": 960
+    },
+    {
+      "word": "iraga",
+      "translations": [{"language": "id", "text": "kita", "pos": "pronoun", "definitions": ["we", "us"], "examples": ["iraga lunga (we go)"]}],
+      "frequency": 870
+    },
+    {
+      "word": "suba",
+      "translations": [{"language": "id", "text": "sudah", "pos": "adverb", "definitions": ["already", "finished"], "examples": ["suba maan (already got)"]}],
+      "frequency": 910
+    },
+    {
+      "word": "durung",
+      "translations": [{"language": "id", "text": "belum", "pos": "adverb", "definitions": ["not yet"], "examples": ["durung maan (not yet got)"]}],
+      "frequency": 880
+    },
+    {
+      "word": "jani",
+      "translations": [{"language": "id", "text": "sekarang", "pos": "adverb", "definitions": ["now", "currently"], "examples": ["jani apa? (what now?)"]}],
+      "frequency": 900
+    },
+    {
+      "word": "kija",
+      "translations": [{"language": "id", "text": "mana", "pos": "adverb", "definitions": ["where"], "examples": ["di kija? (where?)"]}],
+      "frequency": 890
+    },
+    {
+      "word": "apa",
+      "translations": [{"language": "id", "text": "apa", "pos": "pronoun", "definitions": ["what"], "examples": ["apa niki? (what is this?)"]}],
+      "frequency": 970
+    },
+    {
+      "word": "kenken",
+      "translations": [{"language": "id", "text": "bagaimana", "pos": "adverb", "definitions": ["how"], "examples": ["kenken kabare? (how are you?)"]}],
+      "frequency": 860
+    },
+    {
+      "word": "kuda",
+      "translations": [{"language": "id", "text": "berapa", "pos": "adverb", "definitions": ["how much", "how many"], "examples": ["kuda aji? (how much is the price?)"]}],
+      "frequency": 850
+    },
+    {
+      "word": "napi",
+      "translations": [{"language": "id", "text": "apa", "pos": "pronoun", "definitions": ["what (polite)"], "examples": ["napi gatra? (what is the matter?)"]}],
+      "frequency": 820
+    },
+    {
+      "word": "lunga",
+      "translations": [{"language": "id", "text": "pergi", "pos": "verb", "definitions": ["to go", "to leave"], "examples": ["lunga ka pasar (go to market)"]}],
+      "frequency": 930
+    },
+    {
+      "word": "teka",
+      "translations": [{"language": "id", "text": "datang", "pos": "verb", "definitions": ["to come", "to arrive"], "examples": ["teka mai (come here)"]}],
+      "frequency": 920
+    },
+    {
+      "word": "maan",
+      "translations": [{"language": "id", "text": "dapat", "pos": "verb", "definitions": ["to get", "to obtain"], "examples": ["maan pipis (get money)"]}],
+      "frequency": 880
+    },
+    {
+      "word": "ngae",
+      "translations": [{"language": "id", "text": "membuat", "pos": "verb", "definitions": ["to make", "to do"], "examples": ["ngae apa? (doing what?)"]}],
+      "frequency": 870
+    },
+    {
+      "word": "ngomong",
+      "translations": [{"language": "id", "text": "berbicara", "pos": "verb", "definitions": ["to speak", "to talk"], "examples": ["ngomong basa Bali (speak Balinese)"]}],
+      "frequency": 840
+    },
+    {
+      "word": "ningeh",
+      "translations": [{"language": "id", "text": "mendengar", "pos": "verb", "definitions": ["to hear", "to listen"], "examples": ["ningeh suara (hear sound)"]}],
+      "frequency": 830
+    },
+    {
+      "word": "nyingak",
+      "translations": [{"language": "id", "text": "melihat", "pos": "verb", "definitions": ["to see", "to look"], "examples": ["nyingak film (watch movie)"]}],
+      "frequency": 860
+    },
+    {
+      "word": "ngelah",
+      "translations": [{"language": "id", "text": "mempunyai", "pos": "verb", "definitions": ["to have", "to own"], "examples": ["ngelah pipis (have money)"]}],
+      "frequency": 890
+    },
+    {
+      "word": "suka",
+      "translations": [{"language": "id", "text": "suka", "pos": "verb", "definitions": ["to like", "to love"], "examples": ["suka nasi goreng (like fried rice)"]}],
+      "frequency": 900
+    },
+    {
+      "word": "sing",
+      "translations": [{"language": "id", "text": "tidak", "pos": "adverb", "definitions": ["no", "not"], "examples": ["sing tawang (don't know)"]}],
+      "frequency": 950
+    },
+    {"word": "tawang", "translations": [{"language": "id", "text": "tahu", "pos": "verb", "definitions": ["to know"], "examples": ["tawang nggih? (you know, right?)"]}], "frequency": 880},
+    {"word": "jegeg", "translations": [{"language": "id", "text": "cantik", "pos": "adjective", "definitions": ["beautiful", "pretty"], "examples": ["luh jegeg (beautiful girl)"]}], "frequency": 820},
+    {"word": "bagus", "translations": [{"language": "id", "text": "tampan", "pos": "adjective", "definitions": ["handsome", "good-looking"], "examples": ["muani bagus (handsome man)"]}], "frequency": 810},
+    {"word": "becik", "translations": [{"language": "id", "text": "baik", "pos": "adjective", "definitions": ["good", "kind"], "examples": ["anak becik (good child)"]}], "frequency": 870},
+    {"word": "melah", "translations": [{"language": "id", "text": "baik", "pos": "adjective", "definitions": ["good", "fine"], "examples": ["melah pisan (very good)"]}], "frequency": 850},
+    {"word": "gedé", "translations": [{"language": "id", "text": "besar", "pos": "adjective", "definitions": ["big", "large"], "examples": ["umah gedé (big house)"]}], "frequency": 890},
+    {"word": "cenik", "translations": [{"language": "id", "text": "kecil", "pos": "adjective", "definitions": ["small", "little"], "examples": ["anak cenik (small child)"]}], "frequency": 880},
+    {"word": "dawa", "translations": [{"language": "id", "text": "panjang", "pos": "adjective", "definitions": ["long", "tall"], "examples": ["rambut dawa (long hair)"]}], "frequency": 800},
+    {"word": "cendek", "translations": [{"language": "id", "text": "pendek", "pos": "adjective", "definitions": ["short"], "examples": ["celana cendek (short pants)"]}], "frequency": 790},
+    {"word": "barak", "translations": [{"language": "id", "text": "merah", "pos": "adjective", "definitions": ["red"], "examples": ["baju barak (red shirt)"]}], "frequency": 780},
+    {"word": "putih", "translations": [{"language": "id", "text": "putih", "pos": "adjective", "definitions": ["white"], "examples": ["baju putih (white shirt)"]}], "frequency": 800},
+    {"word": "celeng", "translations": [{"language": "id", "text": "hitam", "pos": "adjective", "definitions": ["black"], "examples": ["motor celeng (black motorcycle)"]}], "frequency": 770},
+    {"word": "kuning", "translations": [{"language": "id", "text": "kuning", "pos": "adjective", "definitions": ["yellow"], "examples": ["bunga kuning (yellow flower)"]}], "frequency": 760},
+    {"word": "gadang", "translations": [{"language": "id", "text": "hijau", "pos": "adjective", "definitions": ["green"], "examples": ["don gadang (green leaf)"]}], "frequency": 750},
+    {"word": "umah", "translations": [{"language": "id", "text": "rumah", "pos": "noun", "definitions": ["house", "home"], "examples": ["umah tiang (my house)"]}], "frequency": 920},
+    {"word": "pura", "translations": [{"language": "id", "text": "pura", "pos": "noun", "definitions": ["temple", "Hindu temple"], "examples": ["lunga ka pura (go to temple)"]}], "frequency": 900},
+    {"word": "pasar", "translations": [{"language": "id", "text": "pasar", "pos": "noun", "definitions": ["market"], "examples": ["belanja di pasar (shop at market)"]}], "frequency": 880},
+    {"word": "sekolah", "translations": [{"language": "id", "text": "sekolah", "pos": "noun", "definitions": ["school"], "examples": ["lunga ka sekolah (go to school)"]}], "frequency": 910},
+    {"word": "kantor", "translations": [{"language": "id", "text": "kantor", "pos": "noun", "definitions": ["office"], "examples": ["makarya di kantor (work at office)"]}], "frequency": 840},
+    {"word": "warung", "translations": [{"language": "id", "text": "warung", "pos": "noun", "definitions": ["small shop", "stall"], "examples": ["meli di warung (buy at shop)"]}], "frequency": 860},
+    {"word": "jalan", "translations": [{"language": "id", "text": "jalan", "pos": "noun", "definitions": ["road", "street"], "examples": ["jalan gedé (big road)"]}], "frequency": 870},
+    {"word": "banjar", "translations": [{"language": "id", "text": "banjar", "pos": "noun", "definitions": ["community organization", "neighborhood"], "examples": ["rapat banjar (banjar meeting)"]}], "frequency": 830},
+    {"word": "desa", "translations": [{"language": "id", "text": "desa", "pos": "noun", "definitions": ["village"], "examples": ["desa tiang (my village)"]}], "frequency": 850},
+    {"word": "kota", "translations": [{"language": "id", "text": "kota", "pos": "noun", "definitions": ["city", "town"], "examples": ["lunga ka kota (go to city)"]}], "frequency": 840},
+    {"word": "nasi", "translations": [{"language": "id", "text": "nasi", "pos": "noun", "definitions": ["rice", "cooked rice"], "examples": ["ngedaar nasi (eat rice)"]}], "frequency": 940},
+    {"word": "be", "translations": [{"language": "id", "text": "air", "pos": "noun", "definitions": ["water"], "examples": ["nginum be (drink water)"]}], "frequency": 930},
+    {"word": "ngedaar", "translations": [{"language": "id", "text": "makan", "pos": "verb", "definitions": ["to eat"], "examples": ["ngedaar nasi (eat rice)"]}], "frequency": 920},
+    {"word": "nginum", "translations": [{"language": "id", "text": "minum", "pos": "verb", "definitions": ["to drink"], "examples": ["nginum kopi (drink coffee)"]}], "frequency": 910},
+    {"word": "sirep", "translations": [{"language": "id", "text": "tidur", "pos": "verb", "definitions": ["to sleep"], "examples": ["lakar sirep (going to sleep)"]}], "frequency": 890},
+    {"word": "makarya", "translations": [{"language": "id", "text": "bekerja", "pos": "verb", "definitions": ["to work"], "examples": ["makarya di kantor (work at office)"]}], "frequency": 870},
+    {"word": "sinau", "translations": [{"language": "id", "text": "belajar", "pos": "verb", "definitions": ["to study", "to learn"], "examples": ["sinau basa Bali (learn Balinese)"]}], "frequency": 880},
+    {"word": "meli", "translations": [{"language": "id", "text": "membeli", "pos": "verb", "definitions": ["to buy"], "examples": ["meli baju (buy clothes)"]}], "frequency": 860},
+    {"word": "adep", "translations": [{"language": "id", "text": "menjual", "pos": "verb", "definitions": ["to sell"], "examples": ["adep jukut (sell vegetables)"]}], "frequency": 820},
+    {"word": "pipis", "translations": [{"language": "id", "text": "uang", "pos": "noun", "definitions": ["money"], "examples": ["ngelah pipis (have money)"]}], "frequency": 900},
+    {"word": "baju", "translations": [{"language": "id", "text": "baju", "pos": "noun", "definitions": ["shirt", "clothes"], "examples": ["baju anyar (new shirt)"]}], "frequency": 850},
+    {"word": "motor", "translations": [{"language": "id", "text": "sepeda motor", "pos": "noun", "definitions": ["motorcycle"], "examples": ["nunggang motor (ride motorcycle)"]}], "frequency": 870},
+    {"word": "mobil", "translations": [{"language": "id", "text": "mobil", "pos": "noun", "definitions": ["car"], "examples": ["mobil anyar (new car)"]}], "frequency": 840},
+    {"word": "sepeda", "translations": [{"language": "id", "text": "sepeda", "pos": "noun", "definitions": ["bicycle"], "examples": ["nunggang sepeda (ride bicycle)"]}], "frequency": 810},
+    {"word": "rahina", "translations": [{"language": "id", "text": "hari", "pos": "noun", "definitions": ["day"], "examples": ["rahina niki (today)"]}], "frequency": 880},
+    {"word": "wengi", "translations": [{"language": "id", "text": "malam", "pos": "noun", "definitions": ["night"], "examples": ["wengi niki (tonight)"]}], "frequency": 860},
+    {"word": "lemeng", "translations": [{"language": "id", "text": "pagi", "pos": "noun", "definitions": ["morning"], "examples": ["lemeng niki (this morning)"]}], "frequency": 870},
+    {"word": "sanja", "translations": [{"language": "id", "text": "sore", "pos": "noun", "definitions": ["afternoon", "evening"], "examples": ["sanja niki (this afternoon)"]}], "frequency": 850},
+    {"word": "bulan", "translations": [{"language": "id", "text": "bulan", "pos": "noun", "definitions": ["month", "moon"], "examples": ["bulan purnama (full moon)"]}], "frequency": 830},
+    {"word": "tiban", "translations": [{"language": "id", "text": "tahun", "pos": "noun", "definitions": ["year"], "examples": ["tiban niki (this year)"]}], "frequency": 840},
+    {"word": "luh", "translations": [{"language": "id", "text": "perempuan", "pos": "noun", "definitions": ["woman", "girl", "female"], "examples": ["anak luh (daughter)"]}], "frequency": 890},
+    {"word": "muani", "translations": [{"language": "id", "text": "laki-laki", "pos": "noun", "definitions": ["man", "boy", "male"], "examples": ["anak muani (son)"]}], "frequency": 890},
+    {"word": "timpal", "translations": [{"language": "id", "text": "teman", "pos": "noun", "definitions": ["friend"], "examples": ["timpal tiang (my friend)"]}], "frequency": 870},
+    {"word": "guru", "translations": [{"language": "id", "text": "guru", "pos": "noun", "definitions": ["teacher"], "examples": ["guru basa Bali (Balinese teacher)"]}], "frequency": 850},
+    {"word": "dokter", "translations": [{"language": "id", "text": "dokter", "pos": "noun", "definitions": ["doctor"], "examples": ["lunga ka dokter (go to doctor)"]}], "frequency": 820},
+    {"word": "petani", "translations": [{"language": "id", "text": "petani", "pos": "noun", "definitions": ["farmer"], "examples": ["petani padi (rice farmer)"]}], "frequency": 800},
+    {"word": "nelayan", "translations": [{"language": "id", "text": "nelayan", "pos": "noun", "definitions": ["fisherman"], "examples": ["nelayan di pasih (fisherman at sea)"]}], "frequency": 780},
+    {"word": "pasih", "translations": [{"language": "id", "text": "laut", "pos": "noun", "definitions": ["sea", "ocean"], "examples": ["lunga ka pasih (go to sea)"]}], "frequency": 860},
+    {"word": "gunung", "translations": [{"language": "id", "text": "gunung", "pos": "noun", "definitions": ["mountain"], "examples": ["gunung Agung (Mount Agung)"]}], "frequency": 840},
+    {"word": "sawah", "translations": [{"language": "id", "text": "sawah", "pos": "noun", "definitions": ["rice field"], "examples": ["makarya di sawah (work in rice field)"]}], "frequency": 850},
+    {"word": "bunga", "translations": [{"language": "id", "text": "bunga", "pos": "noun", "definitions": ["flower"], "examples": ["bunga jepun (frangipani flower)"]}], "frequency": 820},
+    {"word": "kayu", "translations": [{"language": "id", "text": "kayu", "pos": "noun", "definitions": ["wood", "tree"], "examples": ["kayu gedé (big tree)"]}], "frequency": 810},
+    {"word": "cicing", "translations": [{"language": "id", "text": "anjing", "pos": "noun", "definitions": ["dog"], "examples": ["cicing tiang (my dog)"]}], "frequency": 800},
+    {"word": "meong", "translations": [{"language": "id", "text": "kucing", "pos": "noun", "definitions": ["cat"], "examples": ["meong putih (white cat)"]}], "frequency": 790},
+    {"word": "kedis", "translations": [{"language": "id", "text": "burung", "pos": "noun", "definitions": ["bird"], "examples": ["kedis mabunyi (bird singing)"]}], "frequency": 780},
+    {"word": "be siap", "translations": [{"language": "id", "text": "ayam", "pos": "noun", "definitions": ["chicken"], "examples": ["be siap goreng (fried chicken)"]}], "frequency": 830},
+    {"word": "sampi", "translations": [{"language": "id", "text": "sapi", "pos": "noun", "definitions": ["cow", "cattle"], "examples": ["sampi di sawah (cow in field)"]}], "frequency": 810},
+    {"word": "bawi", "translations": [{"language": "id", "text": "babi", "pos": "noun", "definitions": ["pig"], "examples": ["bawi guling (roasted pig)"]}], "frequency": 820},
+    {"word": "lakar", "translations": [{"language": "id", "text": "akan", "pos": "auxiliary", "definitions": ["will", "going to"], "examples": ["lakar lunga (will go)"]}], "frequency": 900},
+    {"word": "patut", "translations": [{"language": "id", "text": "harus", "pos": "auxiliary", "definitions": ["must", "should"], "examples": ["patut lunga (must go)"]}], "frequency": 850},
+    {"word": "dadi", "translations": [{"language": "id", "text": "jadi", "pos": "verb", "definitions": ["to become", "to be"], "examples": ["dadi guru (become teacher)"]}], "frequency": 870},
+    {"word": "mai", "translations": [{"language": "id", "text": "sini", "pos": "adverb", "definitions": ["here", "come here"], "examples": ["teka mai (come here)"]}], "frequency": 880},
+    {"word": "ditu", "translations": [{"language": "id", "text": "sana", "pos": "adverb", "definitions": ["there"], "examples": ["di ditu (over there)"]}], "frequency": 860},
+    {"word": "niki", "translations": [{"language": "id", "text": "ini", "pos": "pronoun", "definitions": ["this"], "examples": ["apa niki? (what is this?)"]}], "frequency": 920},
+    {"word": "ento", "translations": [{"language": "id", "text": "itu", "pos": "pronoun", "definitions": ["that"], "examples": ["apa ento? (what is that?)"]}], "frequency": 910},
+    {"word": "akeh", "translations": [{"language": "id", "text": "banyak", "pos": "adjective", "definitions": ["many", "much"], "examples": ["akeh pisan (very many)"]}], "frequency": 840},
+    {"word": "kikit", "translations": [{"language": "id", "text": "sedikit", "pos": "adjective", "definitions": ["few", "little"], "examples": ["kikit pisan (very little)"]}], "frequency": 830},
+    {"word": "pisan", "translations": [{"language": "id", "text": "sekali", "pos": "adverb", "definitions": ["very", "extremely"], "examples": ["becik pisan (very good)"]}], "frequency": 890},
+    {"word": "tusing", "translations": [{"language": "id", "text": "tidak", "pos": "adverb", "definitions": ["no", "not"], "examples": ["tusing tawang (don't know)"]}], "frequency": 870},
+    {"word": "inggih", "translations": [{"language": "id", "text": "ya", "pos": "interjection", "definitions": ["yes"], "examples": ["inggih, becik (yes, good)"]}], "frequency": 880},
+    {"word": "nggih", "translations": [{"language": "id", "text": "ya", "pos": "interjection", "definitions": ["yes", "right"], "examples": ["nggih, tawang (yes, I know)"]}], "frequency": 870},
+    {"word": "suksma", "translations": [{"language": "id", "text": "terima kasih", "pos": "interjection", "definitions": ["thank you"], "examples": ["suksma mewali (thank you very much)"]}], "frequency": 900},
+    {"word": "ampura", "translations": [{"language": "id", "text": "maaf", "pos": "interjection", "definitions": ["sorry", "excuse me"], "examples": ["ampura titiang (I'm sorry)"]}], "frequency": 860},
+    {"word": "rahajeng", "translations": [{"language": "id", "text": "selamat", "pos": "interjection", "definitions": ["greetings", "congratulations"], "examples": ["rahajeng semeng (good morning)"]}], "frequency": 850},
+    {"word": "semeng", "translations": [{"language": "id", "text": "pagi", "pos": "noun", "definitions": ["morning"], "examples": ["rahajeng semeng (good morning)"]}], "frequency": 840},
+    {"word": "sore", "translations": [{"language": "id", "text": "sore", "pos": "noun", "definitions": ["afternoon"], "examples": ["rahajeng sore (good afternoon)"]}], "frequency": 830},
+    {"word": "peteng", "translations": [{"language": "id", "text": "malam", "pos": "noun", "definitions": ["evening", "night"], "examples": ["rahajeng peteng (good evening)"]}], "frequency": 820}
+  ]
+}
