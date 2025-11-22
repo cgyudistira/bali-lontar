@@ -5,12 +5,12 @@
 ![Flutter](https://img.shields.io/badge/Flutter-3.9.2+-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-3.9.2+-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-lightgrey?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web%20%7C%20Desktop-lightgrey?style=for-the-badge)
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)
 
-**Mobile Application for Digitization and Preservation of Balinese Lontar Manuscripts**
+**Cross-Platform Application for Digitization and Preservation of Balinese Lontar Manuscripts**
 
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Technology](#-technology) • [Contributing](#-contributing) • [License](#-license)
+[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Technology](#-technology) • [Architecture](#-architecture) • [Contributing](#-contributing) • [License](#-license)
 
 </div>
 
@@ -18,61 +18,66 @@
 
 ## 📖 About The Project
 
-**Bali Lontar** is a Flutter-based mobile application designed to preserve Balinese cultural heritage through the digitization of lontar manuscripts and traditional documents. This application uses OCR (Optical Character Recognition), transliteration, and translation technologies to facilitate access and understanding of Balinese and Kawi scripts.
+**Bali Lontar** adalah aplikasi cross-platform berbasis Flutter yang dirancang untuk melestarikan warisan budaya Bali melalui digitalisasi naskah lontar dan dokumen tradisional. Aplikasi ini menggunakan teknologi OCR (Optical Character Recognition), transliterasi, dan translasi untuk memfasilitasi akses dan pemahaman aksara Bali dan aksara Kawi.
 
 ### 🎯 Objectives
 
-- **Cultural Preservation**: Assist in digitizing fragile lontar manuscripts
-- **Accessibility**: Make traditional scripts readable and understandable for the general public
-- **Education**: Serve as a learning tool for Balinese and Kawi scripts
-- **Documentation**: Store and archive transliteration and translation results
+- **Pelestarian Budaya**: Membantu digitalisasi naskah lontar yang rapuh
+- **Aksesibilitas**: Membuat aksara tradisional dapat dibaca dan dipahami oleh masyarakat umum
+- **Edukasi**: Menjadi alat pembelajaran untuk aksara Bali dan aksara Kawi
+- **Dokumentasi**: Menyimpan dan mengarsipkan hasil transliterasi dan translasi
+- **Multi-Platform**: Dapat digunakan di berbagai platform (Android, iOS, Web, Desktop)
 
 ---
 
 ## ✨ Features
 
 ### 🔍 OCR & Script Detection
-- Automatic detection of Balinese and Kawi scripts from images
-- Image processing to improve OCR accuracy
-- Support for various image formats (JPG, PNG, etc.)
+- Deteksi otomatis aksara Bali dan Kawi dari gambar
+- Pemrosesan gambar untuk meningkatkan akurasi OCR
+- Dukungan berbagai format gambar (JPG, PNG, dll)
+- Pengambilan gambar dari kamera atau galeri
+- **Mock Implementation**: Saat ini menggunakan OCR engine simulasi untuk keperluan demonstrasi
 
 ### 🔄 Transliteration
-- **Balinese ↔ Latin**: Bidirectional conversion between Balinese script and Latin
-- **Kawi ↔ Latin**: Bidirectional conversion between Kawi script and Latin
-- Support for pasangan (consonant conjuncts)
-- Handling of sandangan (diacritical marks)
-- Alternative transliterations for ambiguous characters
+- **Bali ↔ Latin**: Konversi dua arah antara aksara Bali dan Latin
+- **Kawi ↔ Latin**: Konversi dua arah antara aksara Kawi dan Latin
+- Dukungan untuk pasangan (konsonan rangkap)
+- Penanganan sandangan (tanda diakritik)
+- Transliterasi alternatif untuk karakter ambiguous
+- Real-time transliteration saat mengetik
 
 ### 🌐 Translation
-- **Balinese → Indonesian**: Translation of Balinese words and phrases to Indonesian
-- **Kawi → Indonesian**: Translation of Kawi words and phrases to Indonesian
-- **Indonesian → Balinese/Kawi**: Reverse translation for learning purposes
-- Comprehensive dictionary with:
-  - Part of speech (noun, verb, etc.)
-  - Definitions and usage examples
-  - Word frequency for result ranking
-  - Fuzzy matching for similar words
-  - Stemming for affixed words
-  - Autocomplete for quick input
+- **Bali → Indonesia**: Terjemahan kata dan frasa Bali ke Indonesia
+- **Kawi → Indonesia**: Terjemahan kata dan frasa Kawi ke Indonesia
+- **Indonesia → Bali/Kawi**: Terjemahan balik untuk keperluan pembelajaran
+- Kamus komprehensif dengan:
+  - Jenis kata (kata benda, kata kerja, dll.)
+  - Definisi dan contoh penggunaan
+  - Frekuensi kata untuk ranking hasil
+  - Fuzzy matching untuk kata-kata mirip
+  - Stemming untuk kata berimbuhan
+  - Autocomplete untuk input cepat
 
-### ✏️ Result Editor
-- Edit OCR and transliteration results
-- Manual correction to improve accuracy
-- Real-time preview
+### 🎨 Premium UI/UX
+- **Estetika Bali**: Desain dengan palet warna terinspirasi dari Lontar, Emas, dan Alam
+- **Dashboard**: Akses cepat ke semua fitur utama
+- **Dark Mode**: Dukungan penuh tema gelap untuk kenyamanan membaca
+- **Responsive Design**: Tampilan optimal di berbagai ukuran layar
+- **Material Design 3**: Menggunakan design system terkini
 
 ### 💾 Storage & Export
-- Save transliteration and translation results
-- History of processed results
-- Export to various formats:
-  - PDF
-  - Text file
-  - Image with annotations
+- Menyimpan hasil transliterasi dan translasi
+- Riwayat hasil yang telah diproses
+- Export ke berbagai format (PDF, Text)
+- Database lokal menggunakan SQLite
+- Manajemen data yang efisien
 
-### 📱 User Interface
-- Intuitive and easy-to-use design
-- Light and dark mode
-- Responsive for various screen sizes
-- Indonesian language support
+### 📱 Multi-Platform Support
+- **Android**: Dukungan penuh untuk perangkat Android
+- **iOS**: Dukungan penuh untuk perangkat iOS
+- **Web**: Dapat diakses melalui browser
+- **Desktop**: Linux, macOS, Windows
 
 ---
 
@@ -80,10 +85,10 @@
 
 ### Prerequisites
 
-Make sure you have installed:
-- [Flutter SDK](https://flutter.dev/docs/get-started/install) (version 3.9.2 or newer)
-- [Dart SDK](https://dart.dev/get-dart) (version 3.9.2 or newer)
-- Android Studio / Xcode (for development)
+Pastikan Anda telah menginstal:
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) (versi 3.9.2 atau lebih baru)
+- [Dart SDK](https://dart.dev/get-dart) (versi 3.9.2 atau lebih baru)
+- Android Studio / Xcode (untuk development)
 - Git
 
 ### Installation Steps
@@ -102,51 +107,57 @@ Make sure you have installed:
 3. **Run the application**
    ```bash
    # For Android
-   flutter run
+   flutter run -d android
 
    # For iOS
    flutter run -d ios
+
+   # For Web
+   flutter run -d chrome
+
+   # For Desktop (Windows)
+   flutter run -d windows
+
+   # For Desktop (macOS)
+   flutter run -d macos
+
+   # For Desktop (Linux)
+   flutter run -d linux
 
    # For release mode
    flutter run --release
    ```
 
-4. **Build the application**
-   ```bash
-   # Android APK
-   flutter build apk --release
-
-   # Android App Bundle
-   flutter build appbundle --release
-
-   # iOS
-   flutter build ios --release
-   ```
-
 ---
 
-## 📱 Usage
+## 💻 Usage
 
-### 1. Scan Lontar Manuscript
-- Open the app and select "Scan Document"
-- Take a photo of the lontar manuscript or select from gallery
-- The app will automatically detect the script type
+### OCR (Optical Character Recognition)
+1. Buka menu **OCR** dari dashboard
+2. Pilih gambar dari galeri atau ambil foto baru
+3. Tunggu proses OCR selesai
+4. Hasil deteksi aksara akan ditampilkan
+5. Simpan atau export hasil jika diperlukan
 
-### 2. Transliteration
-- Select transliteration mode (Balinese/Kawi → Latin or vice versa)
-- Enter text or use OCR results
-- View transliteration results with alternatives if available
+### Transliteration
+1. Buka menu **Transliterasi** dari dashboard
+2. Pilih mode transliterasi (Bali→Latin, Latin→Bali, Kawi→Latin, Latin→Kawi)
+3. Ketik teks yang ingin ditransliterasi
+4. Hasil akan muncul secara real-time
+5. Simpan hasil jika diperlukan
 
-### 3. Translation
-- Select source and target language
-- Enter word or phrase
-- Get translation with context and usage examples
-- Use autocomplete for faster input
+### Translation
+1. Buka menu **Translasi** dari dashboard
+2. Pilih bahasa sumber dan target
+3. Ketik kata atau frasa yang ingin diterjemahkan
+4. Lihat hasil terjemahan dengan definisi dan contoh
+5. Gunakan autocomplete untuk input lebih cepat
 
-### 4. Edit & Save
-- Edit results if needed
-- Save to history
-- Export to desired format
+### History
+1. Buka menu **Riwayat** dari dashboard
+2. Lihat semua hasil OCR, transliterasi, dan translasi yang pernah disimpan
+3. Filter berdasarkan jenis atau tanggal
+4. Export hasil individual atau bulk export
 
 ---
 
@@ -154,21 +165,50 @@ Make sure you have installed:
 
 ### Framework & Language
 - **Flutter**: Cross-platform UI framework
-- **Dart**: Programming language
+- **Dart**: Programming language (v3.9.2+)
 
 ### Main Dependencies
-- **provider**: State management
-- **sqflite**: Local database for storage
-- **image**: Image processing
-- **image_picker**: Image capture from camera/gallery
-- **file_picker**: File selection
-- **pdf**: PDF document generation
-- **path_provider**: System directory access
+- **provider** (^6.1.2): State management
+- **sqflite** (^2.3.2): Local database untuk storage
+- **image** (^4.1.7): Image processing
+- **image_picker** (^1.0.7): Image capture dari camera/gallery
+- **file_picker** (^8.0.0): File selection
+- **pdf** (^3.10.8): PDF document generation
+- **path_provider** (^2.1.2): System directory access
+- **google_fonts** (^6.1.0): Custom typography
+- **cupertino_icons** (^1.0.8): iOS style icons
 
 ### Architecture
-- **Service Layer**: Business logic (TransliterationService, DictionaryService, StorageService)
-- **Model Layer**: Data models (Translation, DictionaryEntry, SavedResult)
-- **UI Layer**: Widgets and screens with Provider for state management
+```
+┌─────────────────────────────────────────┐
+│           UI Layer (Screens)            │
+│  • HomeScreen                           │
+│  • OCRScreen                            │
+│  • TransliterationScreen                │
+│  • TranslationScreen                    │
+│  • HistoryScreen                        │
+└─────────────────┬───────────────────────┘
+                  │
+                  │ Provider (State Management)
+                  │
+┌─────────────────▼───────────────────────┐
+│         Service Layer (Business)        │
+│  • OCRService                           │
+│  • TransliterationService               │
+│  • DictionaryService                    │
+│  • StorageService                       │
+└─────────────────┬───────────────────────┘
+                  │
+                  │
+┌─────────────────▼───────────────────────┐
+│            Model Layer (Data)           │
+│  • OCRResult                            │
+│  • TransliterationResult                │
+│  • Translation                          │
+│  • DictionaryEntry                      │
+│  • SavedResult                          │
+└─────────────────────────────────────────┘
+```
 
 ---
 
@@ -177,111 +217,123 @@ Make sure you have installed:
 ```
 bali-lontar/
 ├── lib/
-│   ├── main.dart                 # Application entry point
-│   ├── models/                   # Data models
-│   │   ├── translation.dart
+│   ├── main.dart                          # Application entry point
+│   ├── theme.dart                         # App Theme & Styles
+│   ├── models/                            # Data models
 │   │   ├── dictionary_entry.dart
-│   │   ├── transliteration_option.dart
-│   │   └── saved_result.dart
-│   ├── services/                 # Business logic
-│   │   ├── dictionary_service.dart
-│   │   ├── transliteration_service.dart
-│   │   └── storage_service.dart
-│   ├── data/                     # Database
+│   │   ├── ocr_result.dart
+│   │   ├── saved_result.dart
+│   │   ├── transliteration_result.dart
+│   │   └── translation.dart
+│   ├── services/                          # Business logic
+│   │   ├── dictionary_service.dart        # Kamus & translasi
+│   │   ├── transliteration_service.dart   # Konversi aksara
+│   │   ├── storage_service.dart           # Database & export
+│   │   └── ocr_service.dart               # OCR processing
+│   ├── data/                              # Database helpers
 │   │   └── database_helper.dart
-│   └── screens/                  # UI screens
+│   ├── screens/                           # UI screens
+│   │   ├── home_screen.dart
+│   │   ├── ocr_screen.dart
+│   │   ├── transliteration_screen.dart
+│   │   ├── translation_screen.dart
+│   │   └── history_screen.dart
+│   └── widgets/                           # Reusable widgets
 ├── assets/
-│   ├── data/                     # Dictionary & mapping data
-│   │   ├── dictionary_bali_id.json
-│   │   ├── dictionary_kawi_id.json
-│   │   ├── bali_mapping.json
-│   │   └── kawi_mapping.json
-│   └── sample_images/            # Sample images
-├── test/                         # Unit tests
-├── .kiro/
-│   └── specs/                    # Project specifications
-│       └── bali-lontar-app/
-│           ├── requirements.md
-│           ├── design.md
-│           └── tasks.md
-└── README.md
+│   ├── data/                              # Dictionary & mapping data
+│   │   ├── bali_dictionary.json
+│   │   ├── kawi_dictionary.json
+│   │   └── transliteration_map.json
+│   └── sample_images/                     # Sample images for testing
+├── android/                               # Android specific code
+├── ios/                                   # iOS specific code
+├── web/                                   # Web specific code
+├── windows/                               # Windows specific code
+├── linux/                                 # Linux specific code
+├── macos/                                 # macOS specific code
+├── test/                                  # Unit & widget tests
+├── doc/
+│   └── specs/                             # Project specifications
+├── pubspec.yaml                           # Dependencies
+├── CONTRIBUTING.md                        # Contribution guidelines
+├── LICENSE                                # MIT License
+└── README.md                              # This file
 ```
 
 ---
 
 ## 🧪 Testing
 
-Run unit tests:
-
+### Run Tests
 ```bash
-# All tests
+# Run all tests
 flutter test
 
-# Specific test
-flutter test test/dictionary_service_test.dart
-flutter test test/transliteration_service_test.dart
+# Run tests with coverage
+flutter test --coverage
+
+# Run specific test file
+flutter test test/services/transliteration_service_test.dart
 ```
 
 ---
 
 ## 🤝 Contributing
 
-We greatly appreciate contributions from the community! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for complete guidelines on how to contribute.
+Kontribusi sangat kami sambut! Silakan baca [CONTRIBUTING.md](CONTRIBUTING.md) untuk detail tentang code of conduct dan proses pengajuan pull request.
 
-### Quick Start for Contributors
-
-1. Fork this repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Create a Pull Request
-
----
-
-## 📋 Roadmap
-
-- [x] Balinese Script ↔ Latin Transliteration
-- [x] Kawi Script ↔ Latin Transliteration
-- [x] Balinese-Indonesian Dictionary
-- [x] Kawi-Indonesian Dictionary
-- [x] Fuzzy matching & stemming
-- [x] Autocomplete
-- [ ] OCR Engine integration
-- [ ] UI/UX implementation
-- [ ] PDF Export
-- [ ] Cloud sync
-- [ ] Collaborative editing
-- [ ] Audio pronunciation
-- [ ] AR mode for direct scanning
+### Development Workflow
+1. Fork repository ini
+2. Buat branch baru (`git checkout -b feature/AmazingFeature`)
+3. Commit perubahan Anda (`git commit -m 'Add some AmazingFeature'`)
+4. Push ke branch (`git push origin feature/AmazingFeature`)
+5. Buat Pull Request
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Project ini dilisensikan di bawah MIT License - lihat file [LICENSE](LICENSE) untuk detail.
 
 ---
 
 ## 👥 Team
 
-Developed with ❤️ for the preservation of Balinese culture
+Developed by **cgyudistira** with ❤️ for the preservation of Balinese culture
 
----
-
-## 📞 Contact & Support
-
-- **Issues**: [GitHub Issues](https://github.com/cgyudistira/bali-lontar/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/cgyudistira/bali-lontar/discussions)
-- **Email**: support@bali-lontar.com
+### Contact
+- GitHub: [@cgyudistira](https://github.com/cgyudistira)
+- Email: cokorda@gmail.com
 
 ---
 
 ## 🙏 Acknowledgments
 
-- Indonesian Flutter Community
-- Bali Provincial Government
-- Balinese and Kawi script experts
-- All contributors who have helped this project
+- Tim pengembang Flutter
+- Komunitas pelestari budaya Bali
+- Penutur dan ahli aksara Bali dan Kawi
+- Semua kontributor yang telah membantu project ini
+
+---
+
+## 🗺️ Roadmap
+
+### Current Version (1.0.0)
+- ✅ OCR untuk aksara Bali dan Kawi (Mock)
+- ✅ Transliterasi dua arah
+- ✅ Kamus dan translasi
+- ✅ Penyimpanan hasil
+- ✅ Export ke PDF
+- ✅ Multi-platform support
+
+### Future Plans
+- 🔄 Integrasi OCR engine yang lebih canggih (Google ML Kit / Tesseract)
+- 🔄 Machine learning untuk meningkatkan akurasi
+- 🔄 Dukungan untuk aksara tradisional lainnya
+- 🔄 Cloud sync dan backup
+- 🔄 Kolaborasi antar pengguna
+- 🔄 Audio pronunciation
+- 🔄 Augmented Reality untuk pembelajaran aksara
 
 ---
 
@@ -289,6 +341,10 @@ Developed with ❤️ for the preservation of Balinese culture
 
 **Preserve Culture, Create the Future**
 
-⭐ If this project is useful, give it a star on GitHub!
+**ᬮᬸᬮᬸᬃᬲᬹᬦ᭄ᬩᬸᬤᬬ᭞ᬳᬸᬮᬸᬃᬳᬦᬓᬕᬢ᭄** (Melestarikan Budaya, Menciptakan Masa Depan)
+
+⭐ Jika project ini bermanfaat, berikan bintang di GitHub!
+
+[⬆ Back to Top](#bali-lontar)
 
 </div>
