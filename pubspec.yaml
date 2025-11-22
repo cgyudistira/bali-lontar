@@ -31,6 +31,7 @@ dependencies:
 
   # UI and Icons
   cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
   
   # State Management
   provider: ^6.1.2
@@ -44,7 +45,7 @@ dependencies:
   path_provider: ^2.1.2
   
   # File Handling
-  file_picker: ^6.1.1
+  file_picker: ^8.0.0
   
   # PDF Generation
   pdf: ^3.10.8
